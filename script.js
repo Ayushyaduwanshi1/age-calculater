@@ -17,7 +17,7 @@ function calculateAge() {
         alert("Enter Correct age")
         return
     }
-    output.innerHTML = `Your age is ${year} years <br> ${month} Month old  <br> <br> And <br><br> <br> ${totalbornday} Day`;
+    output.innerHTML = `Your age is ${year} years <br> ${month} Month old  <br> <br> And <br><br> It's been ${totalbornday} Days since you were born`;
     userinput.value =""
 }
 button.addEventListener("click", calculateAge)

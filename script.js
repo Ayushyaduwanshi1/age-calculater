@@ -26,34 +26,3 @@ window.addEventListener("keypress",(e)=>{
         calculateAge()
     }
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function my(birthdayValue) {
-//     let currentDate = new Date();
-//     let userdate = new Date(birthdayValue);
-//     let year = currentDate.getFullYear() - userdate.getFullYear();
-//     let month = currentDate.getMonth() - userdate.getMonth();
-//     if (
-//         month < 0 ||
-//         (month === 0 && currentDate.getDate() < userdate.getDate())
-//     ) {
-//         year--;
-//     }
-//     return year;
-// }
-
-
